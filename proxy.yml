@@ -1,0 +1,7 @@
+serverHost: http://localhost:8081
+serverSecret: 123
+
+routers:
+  - pattern: /
+    upstream:
+      address: http://localhost:8080
