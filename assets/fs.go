@@ -1,4 +1,4 @@
-//go:generate statik -p assets -src=/opt/works/zplat-front/dist -dest ..
+//go:generate statik -p assets -src=/tmp/zplat-dashboard -dest ..
 package assets
 
 import (
